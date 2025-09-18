@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+    "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build --base=/2025-p2a-web-bootstrap-school-Petrik-Petr/ && gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^7.1.2"
